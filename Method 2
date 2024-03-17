@@ -1,0 +1,10 @@
+# Python Program to find character is alphabet or not
+
+# user input
+ch = 'z'
+
+# basic logic
+if 97 <= ord(ch) <= 122 or 65 <= ord(ch) <= 90:
+    print("The character", ch, "is an Alphabet")
+else:
+    print("The character", ch, "is not an Alphabet")
